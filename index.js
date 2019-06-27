@@ -25,6 +25,7 @@ function currentLine(line){
         outputStr += (i + 1) + '. ' + line[i] + ', ';
       }
     }
+    return outputStr;
   }
   
 }
