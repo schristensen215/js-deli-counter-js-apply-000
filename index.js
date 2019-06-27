@@ -8,7 +8,7 @@ function takeANumber(line, name){
 function nowServing(line){
   if(line.length > 0){
     let firstPerson = katzDeliLine.pop();
-    return firstPerson
+    return 'Currently serving ' + firstPerson + '.';
   }
   else return 'There is nobody waiting to be served!';
 }
